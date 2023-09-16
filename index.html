@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="relative background container mx-auto p-6">
+      <!-- Flex container -->
+      <div class="flex items-center justify-between">
+        <!-- Logo -->
+
+        <div class="pt-2">
+          <img class="sm:ml-14 sm:ml-20 md:ml-20" src="img/logo.svg" alt="" />
+        </div>
+        <!-- Menu Items -->
+
+        <button
+          class="px-6 py-2 text-LightPink rounded-full border-Pink border-2 focus:outline-none"
+        >
+          Try it free
+        </button>
+      </div>
+    </nav>
+
+    <!-- Intro -->
+    <div class="hidden md:flex justify-center items-center">
+      <div class="">
+        <h1 class="intro-h1 font-bold text-center mt-28 text-VeryDarkBlue">
+          Build The community Your fans will Love
+        </h1>
+        <p class="text-center mt-10 text-VeryDarkBlue intro-p">
+          Huddle re-imagines the way we build communities. You have a <br />
+          voice, but so does your audience. Create connections with your <br />
+          users as you engange genieu discussion.
+        </p>
+        <div class="justify-center items-center flex mt-20">
+          <button
+            class="px-6 py-4 text-white font-bold rounded-full bg-Pink focus:outline-none"
+          >
+            Get Started for free
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- Intro Mobile -->
+    <div class="md:hidden sm:flex">
+      <h1 class="intro-h1mobile font-bold text-center mt-28 text-VeryDarkBlue">
+        Build The community <br />
+        Your fans will Love
+      </h1>
+      <p class="text-center mt-10 text-VeryDarkBlue intro-p-mobile">
+        Huddle re-imagines the way we build <br />
+        communities. You have a voice, but so does <br />
+        your audience. Create connections with your <br />
+        users as you engange genieu discussion.
+      </p>
+      <div class="justify-center items-center flex mt-20">
+        <button
+          class="px-6 py-4 text-white font-bold rounded-full bg-Pink focus:outline-none"
+        >
+          Get Started for free
+        </button>
+      </div>
+    </div>
+
+    <div class="justify-center items-center flex mb-10">
+      <img
+        class="lg:w-6/12 md:w-6/12 mt-28 sm:w-32"
+        src="./img/screen-mockups.svg"
+        alt=""
+      />
+    </div>
+    <div class="hidden md:flex p-0">
+      <div class="flex justify-between">
+        <div class="block ml-52 mr-96">
+          <img src="./img/icon-communities.svg" alt="" />
+          <p class="k-p">1.4k+</p>
+          <p>Communites Formed</p>
+        </div>
+        <div class="block ml-96">
+          <img src="./img/icon-messages.svg" alt="" />
+          <p class="k-p">2.7m+</p>
+          <p>Message sent</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="md:hidden sm:flex">
+      <div>
+        <div class="block justify-center items-center text-center">
+          <div class="flex justify-center items-center mr-20">
+            <img src="./img/icon-communities.svg" alt="" />
+          </div>
+          <p class="k-p">1.4k+</p>
+          <p class="font-bold text-1xl">Communites Formed</p>
+        </div>
+      </div>
+      <div>
+        <div class="block justify-center items-center text-center mt-20">
+          <div class="flex justify-center items-center mr-20">
+            <img src="./img/icon-messages.svg" alt="" />
+          </div>
+          <p class="k-p">2.7m+</p>
+          <p class="font-bold text-1xl">
+            Message <br />
+            Sent
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Intro 2 -->
+    <div class="hidden md:flex">
+      <div class="intro-2-bg">
+        <div class="hidden md:flex">
+          <div class="flex mt-52">
+            <div class="block mr-64">
+              <h2 class="intro2--h2 ml-20 mt-20 text-VeryDarkBlue mb-10">
+                Grow Together
+              </h2>
+              <p class="text-VeryDarkBlue ml-20 intro2--p text-1xl">
+                Generate meaningful discusion with your audience and build a
+                <br />
+                strong, loyal community. Think of the insightful conversation you
+                <br />
+                miss out on with a feedback form.
+              </p>
+            </div>
+            <img
+              class="w-96 h-96 mt-10"
+              src="img/illustration-grow-together.svg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Intro 2 mobile -->
+    <div class="md:hidden sm:flex text-center">
+      <div class="justify-center items-center flex mt-20">
+        <img class="w-9/12" src="img/illustration-grow-together.svg" alt="" />
+      </div>
+      <h2 class="intro2--h2 mt-20 text-VeryDarkBlue mb-10">Grow Together</h2>
+      <p class="text-VeryDarkBlue intro2--p text-1xl">
+        Generate meaningful discusion with your audience and build a <br />
+        strong, loyal community. Think of the insightful conversation you
+        <br />
+        miss out on with a feedback form.
+      </p>
+    </div>
+
+    <!-- Intro 3 -->
+    <div class="hidden md:flex">
+      <div class="flex mt-52">
+        <img
+          class="w-4/12 ml-20 mr-52"
+          src="./img/illustration-flowing-conversation.svg"
+          alt=""
+        />
+        <div class="block ml-36 mt-24">
+          <h2 class="intro3-h2 text-VeryDarkBlue">Flowing Conversation</h2>
+          <p class="intro3--p text-1xl">
+            You would'nt paginate a conversation in real life, so why do it
+            online?
+            <br />
+            Our threads have just-in-time loading for more natural flow.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Intro 3 mobile -->
+    <div class="md:hidden sm:flex">
+      <div class="mt-52">
+        <div class="justify-center items-center flex">
+          <img
+            class="w-9/12"
+            src="./img/illustration-flowing-conversation.svg"
+            alt=""
+          />
+        </div>
+        <div class="block mt-24 text-center">
+          <h2 class="intro3-h2 text-VeryDarkBlue">Flowing Conversation</h2>
+          <p class="intro3--p text-1xl">
+            You would'nt paginate a conversation in real life, so why do it
+            online?
+            <br />
+            Our threads have just-in-time loading for more natural flow.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Intro 4  -->
+
+    <div class="hidden md:flex">
+      <div class="Intro-4-bg">
+        <div class="hidden md:flex">
+          <div class="mt-52">
+            <div class="flex">
+              <div class="block mr-64">
+                <h2 class="intro4-h2 text-VeryDarkBlue ml-20">Your Users</h2>
+                <p class="ml-20">
+                  It takes no time at all to integrate Huddle with your app's
+                  <br />
+                  authentication solution. This means, once signed in to your
+                  app, your
+                  <br />
+                  user can start chatting immediately.
+                </p>
+              </div>
+              <img
+                class="w-4/12 mb-20"
+                src="./img/illustration-your-users.svg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="md:hidden sm:flex">
+      <div class="md:hidden sm:flex">
+        <div class="mt-56">
+          <div class="justify-center items-center flex">
+            <img
+              class="w-9/12 mb-20"
+              src="./img/illustration-your-users.svg"
+              alt=""
+            />
+          </div>
+          <h2 class="intro4-h2 text-VeryDarkBlue text-center">Your Users</h2>
+          <p class="text-center text-VeryDarkBlue mb-96">
+            It takes no time at all to integrate Huddle with your app's <br />
+            authentication solution. This means, once signed in to your app,
+            your
+            <br />
+            user can start chatting immediately.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="hidden md:flex mb-52">
+      <div class="text-center">
+        <h1 class="text-VeryDarkBlue inner-footer intro-text">
+          Ready To Build Your Community?
+        </h1>
+        <button
+          class="px-6 py-3 text-white rounded-full bg-Pink focus:outline-none font-bold btn-footer"
+        >
+          Get Started for free
+        </button>
+      </div>
+    </div>
+    <div class="md:hidden sm:flex">
+      <div>
+        <h1 class="text-VeryDarkBlue inner-footer text-center mt-52">
+          Ready To Build Your Community?
+        </h1>
+        <div class="justify-center items-center flex mt-10">
+          <button
+            class="px-6 py-3 text-white rounded-full bg-Pink focus:outline-none font-bold"
+          >
+            Get Started for free
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <div class="hidden md:flex">
+      <div class="footer">
+        <div class="mt-20">
+          <div class="flex">
+            <div class="block mr-52">
+              <img class="mb-10" src="./img/logo.svg" alt="" />
+              <p class="text-white mb-10">
+                Lorem ipsum dolor sit amet consectetur <br />
+                adipisicing elit. Vero iusto sapiente iure <br />
+                aliquid deserunt veritatis omnis eaque soluta.
+              </p>
+              <div class="flex pr-5 pt-5">
+                <img class="phone pr-5" src="./img/icon-phone.svg" alt="" />
+                <p class="text-white">Phone:+1-543-123-4567</p>
+              </div>
+              <div class="flex pr-5 pt-5">
+                <img
+                  class="email pr-5 w-10 h-5"
+                  src="img/./icon-email.svg"
+                  alt=""
+                />
+                <p class="text-white">examplefylo@huddle.com</p>
+              </div>
+            </div>
+            <div class="mt-20">
+              <h2 class="font-bold text-white text-3xl mb-10">NEWS LETTER</h2>
+              <p class="text-white text-1xl">
+                To recieve tips on how to grow you community, <br />
+                sign up to our weekly newsletter. We'll never send <br />
+                spam or pass on your email adress.
+              </p>
+              <div class="flex">
+                <form>
+                  <div class="flex space-x-3 mt-9 w-96 h-14">
+                    <input
+                      type="text"
+                      class="flex-1 px-4 rounded-md focus:outline-none"
+                      placeholder=""
+                    />
+                  </div>
+                </form>
+                <button
+                  class="ml-12 w-60 h-14 px-6 py-2 text-white rounded-md bg-Pink focus:outline-none mt-9"
+                >
+                  Get started for free
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="md:hidden sm:flex">
+      <div class="footer-2">
+        <h2 class="font-bold text-white ml-10 text-3xl mt-32">NEWSLETTER</h2>
+        <p class="text-white text-1xl ml-10 mt-10">
+          To recieve tips on how to grow you community, <br />
+          sign up to our weekly newsletter. We'll never send <br />
+          spam or pass on your email adress.
+        </p>
+        <div class="block">
+          <form>
+            <div class="flex space-x-3 mt-9 w-96 h-14 ml-10">
+              <input
+                type="text"
+                class="flex-1 px-4 rounded-md focus:outline-none"
+                placeholder=""
+              />
+            </div>
+          </form>
+          <button
+            class="ml-56 w-48 h-14 px-6 py-2 text-white rounded-md bg-Pink focus:outline-none mt-9"
+          >
+            Get started for free
+          </button>
+        </div>
+        <img class="ml-10 mt-10" src="./img/logo.svg" alt="" />
+        <p class="text-white text-1xl ml-10 mt-10">
+          Lorem ipsum dolor sit amet consectetur <br />
+          adipisicing elit. Vero iusto sapiente iure <br />
+          aliquid deserunt veritatis omnis eaque soluta.
+        </p>
+        <div class="flex pr-5 pt-5">
+          <img class="phone pr-5 ml-10" src="./img/icon-phone.svg" alt="" />
+          <p class="text-white">Phone:+1-543-123-4567</p>
+        </div>
+        <div class="flex pr-5 pt-5">
+          <img
+            class="email pr-5 w-10 h-5 ml-10"
+            src="img/./icon-email.svg"
+            alt=""
+          />
+          <p class="text-white">examplefylo@huddle.com</p>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

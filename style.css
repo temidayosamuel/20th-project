@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.intro-h1 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.intro-p {
+  font-family: "Open Sans";
+  font-weight: 400;
+}
+
+.intro-h1mobile {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.intro-p-mobile {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.k-p {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.intro2--h2 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.intro2--p {
+  font-family: "Open Sans";
+  font-weight: 400;
+}
+
+.intro3-h2 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.intro2--p {
+  font-family: "Open Sans";
+  font-weight: 400;
+}
+
+.intro4-h2 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.inner-footer {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.intro-text {
+  margin-left: 500px;
+}
+
+.btn-footer {
+  margin-left: 500px;
+  margin-top: 50px;
+}
+
+.footer {
+  background-image: url("./img/bg-footer-top-desktop.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+  padding-left: 100px;
+  width: 100%;
+}
+
+.footer-2 {
+  background-image: url("./img/bg-footer-top-mobile.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 125px;
+  width: 100%;
+}
+
+.Intro-4-bg {
+  background-image: url("./img/bg-section-top-desktop-2.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 200px;
+  padding-bottom: 20px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+
+
+.intro-2-bg {
+  background-image: url("./img/bg-section-top-desktop-2.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 200px;
+  padding-bottom: 20px;
+  width: 100%;
+  margin-bottom: 50px;
+}
